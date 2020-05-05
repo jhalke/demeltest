@@ -1,0 +1,345 @@
+[hidden] {
+    display: none
+}
+
+body {
+    margin: 0;
+    font-size: 16px
+}
+
+a:active,
+a:hover {
+    outline: 0
+}
+
+.\(1\/1\) {
+    width: 100%
+}
+
+.\(1\/2\) {
+    width: 50%
+}
+
+.\(1\/3\) {
+    width: 33.3333333333%
+}
+
+.\(2\/3\) {
+    width: 66.6666666667%
+}
+
+.\(1\/4\) {
+    width: 25%
+}
+
+.\(2\/4\) {
+    width: 50%
+}
+
+.\(3\/4\) {
+    width: 75%
+}
+
+.\(1\/5\) {
+    width: 20%
+}
+
+.\(2\/5\) {
+    width: 40%
+}
+
+.\(3\/5\) {
+    width: 60%
+}
+
+.\(4\/5\) {
+    width: 80%
+}
+
+.\(1\/6\) {
+    width: 16.6666666667%
+}
+
+.\(2\/6\) {
+    width: 33.3333333333%
+}
+
+.\(3\/6\) {
+    width: 50%
+}
+
+.\(4\/6\) {
+    width: 66.6666666667%
+}
+
+.\(5\/6\) {
+    width: 83.3333333333%
+}
+
+.\(1\/7\) {
+    width: 14.2857142857%
+}
+
+.\(2\/7\) {
+    width: 28.5714285714%
+}
+
+.\(3\/7\) {
+    width: 42.8571428571%
+}
+
+.\(4\/7\) {
+    width: 57.1428571429%
+}
+
+.\(5\/7\) {
+    width: 71.4285714286%
+}
+
+.\(6\/7\) {
+    width: 85.7142857143%
+}
+
+.\(1\/8\) {
+    width: 12.5%
+}
+
+.\(2\/8\) {
+    width: 25%
+}
+
+.\(3\/8\) {
+    width: 37.5%
+}
+
+.\(4\/8\) {
+    width: 50%
+}
+
+.\(5\/8\) {
+    width: 62.5%
+}
+
+.\(6\/8\) {
+    width: 75%
+}
+
+.\(7\/8\) {
+    width: 87.5%
+}
+
+[class~="u_max(palm)"] {
+    max-width: 420px
+}
+
+[class~="u_max(lap)"] {
+    max-width: 768px
+}
+
+[class~="u_max(portrait)"] {
+    max-width: 1024px
+}
+
+[class~="u_max(landscape)"] {
+    max-width: 1200px
+}
+
+[class~="u_max(desk)"] {
+    max-width: 1680px
+}
+
+[class~="u_max(wide)"] {
+    max-width: 10000px
+}
+
+[class~="u_max(320)"] {
+    max-width: 320px
+}
+
+.o_image-parent {
+    position: relative;
+    overflow: hidden
+}
+
+.o_image {
+    display: block
+}
+
+
+/*!
+ * Classic picker styling for pickadate.js
+ * Demo: http://amsul.github.io/pickadate.js
+ */
+
+[class*=" icon-"]:before,
+[class^=icon-]:before {
+    font-family: share-icons;
+    font-style: normal;
+    font-weight: 400;
+    speak: none;
+    display: inline-block;
+    text-decoration: inherit;
+    width: 1em;
+    margin-right: .2em;
+    text-align: center;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1em;
+    margin-left: .2em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+a a,
+a:active,
+a:focus,
+a:hover {
+    outline: 0
+}
+
+::-webkit-input-placeholder {
+    color: #f93822
+}
+
+:-moz-placeholder {
+    color: #f93822;
+    opacity: 1
+}
+
+::-moz-placeholder {
+    color: #f93822;
+    opacity: 1
+}
+
+:-ms-input-placeholder {
+    color: #f93822
+}
+
+* {
+    outline: 0
+}
+
+::selection {
+    background: #ffdcdf
+}
+
+::-moz-selection {
+    background: #ffdcdf
+}
+
+[class~="u_max(restaurant)"] {
+    max-width: 570px
+}
+
+a.mail {
+    font-family: "Larish Alte Semibold";
+    letter-spacing: 0
+}
+
+a.mail {
+    font-size: 1.0625rem;
+    line-height: .75rem
+}
+
+@font-face {
+    font-family: Effra-Medium;
+    font-display: fallback;
+    src: url(../Fonts/2E4E80_0_0.eot);
+    src: url(../Fonts/2E4E80_0_0.eot?#iefix) format("embedded-opentype"), url(../Fonts/2E4E80_0_0.woff2) format("woff2"), url(../Fonts/2E4E80_0_0.woff) format("woff"), url(../Fonts/2E4E80_0_0.ttf) format("truetype"), url(../Fonts/2E4E80_0_0.svg#wf) format("svg")
+}
+
+@font-face {
+    font-family: Effra-Regular;
+    font-display: fallback;
+    src: url(../Fonts/2E4E80_1_0.eot);
+    src: url(../Fonts/2E4E80_1_0.eot?#iefix) format("embedded-opentype"), url(../Fonts/2E4E80_1_0.woff2) format("woff2"), url(../Fonts/2E4E80_1_0.woff) format("woff"), url(../Fonts/2E4E80_1_0.ttf) format("truetype"), url(../Fonts/2E4E80_1_0.svg#wf) format("svg")
+}
+
+@font-face {
+    font-family: 'Larish Alte Semibold';
+    font-display: fallback;
+    font-style: normal;
+    font-weight: 400;
+    src: url(../Fonts/larish_neue_semibold.eot);
+    src: url(../Fonts/2E4E80_1_0.eot?#iefix) format("embedded-opentype"), url(../Fonts/larish_neue_semibold.woff2) format("woff2"), url(../Fonts/larish_neue_semibold.woff) format("woff"), url(../Fonts/larish_neue_semibold.ttf) format("truetype"), url(../Fonts/larish_neue_semibold.svg#wf) format("svg")
+}
+
+@font-face {
+    font-family: Copernicus-Book;
+    font-display: fallback;
+    src: url(../Fonts/Copernicus-Book.eot);
+    src: url(../Fonts/Copernicus-Book.eot?#iefix) format("embedded-opentype"), url(../Fonts/Copernicus-Book.woff) format("woff")
+}
+
+@font-face {
+    font-family: Notera;
+    font-display: fallback;
+    src: url(../Fonts/2EE0E0_0_0.eot);
+    src: url(../Fonts/2EE0E0_0_0.eot?#iefix) format("embedded-opentype"), url(../Fonts/2EE0E0_0_0.woff2) format("woff2"), url(../Fonts/2EE0E0_0_0.woff) format("woff"), url(../Fonts/2EE0E0_0_0.ttf) format("truetype")
+}
+
+@font-face {
+    font-family: Domaine;
+    font-display: fallback;
+    src: url(../Fonts/DomaineDisplayNarrowWeb-Black.eot);
+    src: url(../Fonts/DomaineDisplayNarrowWeb-Black.eot?#iefix) format("embedded-opentype"), url(../Fonts/DomaineDisplayNarrowWeb-Black.woff) format("woff")
+}
+
+@font-face {
+    font-family: share-icons;
+    src: url(../Fonts/share-icons.eot?66279829);
+    src: url(../Fonts/share-icons.eot?66279829#iefix) format("embedded-opentype"), url(../Fonts/share-icons.woff?66279829) format("woff"), url(../Fonts/share-icons.ttf?66279829) format("truetype"), url(../Fonts/share-icons.svg?66279829#share-icons) format("svg");
+    font-weight: 400;
+    font-style: normal
+}
+
+@media only screen and (min-width:420px) and (max-width:767px) {
+    [class~=u_-lap] {
+        display: none!important
+    }
+}
+
+@media only screen and (min-width:420px) {
+    [class~="u_-lap+"] {
+        display: none!important
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:1023px) {
+    [class~=u_-portrait] {
+        display: none!important
+    }
+}
+
+@media only screen and (min-width:768px) {
+    [class~="u_-portrait+"] {
+        display: none!important
+    }
+    /*!
+ * fullPage 2.7.5
+ * https://github.com/alvarotrigo/fullPage.js
+ * MIT licensed
+ *
+ * Copyright (C) 2013 alvarotrigo.com - A project by Alvaro Trigo
+ */
+    body {
+        padding: 0
+    }
+}
+
+[class~="u_max(swiper_gallery)"] {
+    width: 80%;
+    max-width: 1150px
+}
+
+a.mail {
+    font-size: 1.1875rem;
+    line-height: .9375rem;
+    letter-spacing: 0
+}
+
+@media screen and (max-width: 500px) {
+    .commentContainer{
+        display: none;
+    }
+}

@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="pure.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="alt.css">
+    <link rel='stylesheet' id='main-css' href='../wp-content/themes/welldunn/assets/css/style_ver=1553280783.css' type='text/css' media='' />
+    <link rel="stylesheet" href="prod.css">
+    
+    <link rel="stylesheet" href="https://codepen.io/kathykato/pen/57f0b5b76e6aa7e4917e08b81d378d7b">
+    <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    
+    <style>
+        html{
+            
+    overflow:unset !important;
+
+        }
+        main{
+            max-width: 80%;
+            margin-left: 15vw;
+            margin-bottom:10vh;
+            margin-top:5vh;
+        }
+        @media only screen and (max-width: 10px;) {
+            main.prod{
+                margin-left:10vw;
+            }
+        }
+    .tab-wrap {
+border: thin;
+  border-radius: 6px;
+  max-width: 100%;
+  display: -webkit-box;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  list-style: none;
+  background-color: #fff;
+  margin: 40px 0;
+
+}
+
+
+.tab {
+  display: none;
+}
+.tab:checked:nth-of-type(1) ~ .tab__content:nth-of-type(1) {
+  opacity: 1;
+  -webkit-transition: 0.5s opacity ease-in, 0.8s -webkit-transform ease;
+  transition: 0.5s opacity ease-in, 0.8s -webkit-transform ease;
+  transition: 0.5s opacity ease-in, 0.8s transform ease;
+  transition: 0.5s opacity ease-in, 0.8s transform ease, 0.8s -webkit-transform ease;
+  position: relative;
+  top: 0;
+  z-index: 100;
+  -webkit-transform: translateY(0px);
+          transform: translateY(0px);
+  text-shadow: 0 0 0;
+}
+.tab:checked:nth-of-type(2) ~ .tab__content:nth-of-type(2) {
+  opacity: 1;
+  -webkit-transition: 0.5s opacity ease-in, 0.8s -webkit-transform ease;
+  transition: 0.5s opacity ease-in, 0.8s -webkit-transform ease;
+  transition: 0.5s opacity ease-in, 0.8s transform ease;
+  transition: 0.5s opacity ease-in, 0.8s transform ease, 0.8s -webkit-transform ease;
+  position: relative;
+  top: 0;
+  z-index: 100;
+  -webkit-transform: translateY(0px);
+          transform: translateY(0px);
+  text-shadow: 0 0 0;
+}
+.tab:checked:nth-of-type(3) ~ .tab__content:nth-of-type(3) {
+  opacity: 1;
+  -webkit-transition: 0.5s opacity ease-in, 0.8s -webkit-transform ease;
+  transition: 0.5s opacity ease-in, 0.8s -webkit-transform ease;
+  transition: 0.5s opacity ease-in, 0.8s transform ease;
+  transition: 0.5s opacity ease-in, 0.8s transform ease, 0.8s -webkit-transform ease;
+  position: relative;
+  top: 0;
+  z-index: 100;
+  -webkit-transform: translateY(0px);
+          transform: translateY(0px);
+  text-shadow: 0 0 0;
+}
+.tab:checked:nth-of-type(4) ~ .tab__content:nth-of-type(4) {
+  opacity: 1;
+
+  top: 0;
+  z-index: 100;
+  -webkit-transform: translateY(0px);
+          transform: translateY(0px);
+  text-shadow: 0 0 0;
+}
+.tab:checked:nth-of-type(5) ~ .tab__content:nth-of-type(5) {
+  opacity: 1;
+ 
+  top: 0;
+  z-index: 100;
+  -webkit-transform: translateY(0px);
+          transform: translateY(0px);
+  text-shadow: 0 0 0;
+}
+.tab:first-of-type:not(:last-of-type) + label {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.tab:not(:first-of-type):not(:last-of-type) + label {
+  border-radius: 0;
+}
+.tab:last-of-type:not(:first-of-type) + label {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.tab:checked + label {
+  background-color: #fff;
+  box-shadow: 0 -1px 0 #fff inset;
+  cursor: default;
+}
+.tab:checked + label:hover {
+  box-shadow: 0 -1px 0 #fff inset;
+  background-color: #fff;
+}
+.tab + label {
+  box-shadow: 0 -1px 0 #eee inset;
+  border-radius: 6px 6px 0 0;
+  cursor: pointer;
+  display: block;
+  text-decoration: none;
+  color: #05234f;
+  -webkit-box-flex: 3;
+          flex-grow: 3;
+  text-align: center;
+  background-color: #ffdcdf;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  text-align: center;
+  
+}
+.tab + label:hover {
+  background-color: #f9f9f9;
+  box-shadow: 0 1px 0 #f4f4f4 inset;
+}
+.tab__content {
+  padding: 10px 25px;
+  background-color: transparent;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+  opacity: 0;
+  left: 0;
+ 
+    </style>
+</head>
+<body>
+    
+
+      <main id="prod">
+        <div class="container">
+          <div class="grid second-nav">
+            <div class="column-xs-12">
+              <nav>
+                <ol class="breadcrumb-list">
+                  <li class="breadcrumb-item"><a href="#">Home</a></li>
+                  <li class="breadcrumb-item"><a href="#">Household Plants</a></li>
+                  <li class="breadcrumb-item active">Bonsai</li>
+                </ol>
+              </nav>
+            </div>
+          </div>
+          <div class="grid product">
+            <div class="column-xs-12 column-md-7">
+              <div class="product-gallery">
+                <div class="product-image">
+                  <img class="active" src="https://source.unsplash.com/W1yjvf5idqA">
+                </div>
+                <ul class="image-list">
+                  <li style="height: 14.5vw !important;" class="image-item"><img src="https://source.unsplash.com/W1yjvf5idqA"></li>
+                  <li class="image-item"><img src="https://source.unsplash.com/VgbUxvW3gS4"></li>
+                  <li class="image-item"><img src="https://source.unsplash.com/5WbYFH0kf_8"></li>
+                </ul>
+              </div>
+            </div>
+            <div class="column-xs-12 column-md-5">
+              <h1 class="product-name lettering">Bonsai</h1>
+              <h2 class="price">$19.99</h2>
+              <div class="description wysiwyg">
+                <p c;a>The purposes of bonsai are primarily contemplation for the viewer, and the pleasant exercise of effort and ingenuity for the grower.</p>
+                <p>By contrast with other plant cultivation practices, bonsai is not intended for production of food or for medicine. Instead, bonsai practice focuses on long-term cultivation and shaping of one or more small trees growing in a container.</p>
+              </div>
+              <button class="add-to-cart">Add To Cart</button>
+            </div>
+            
+          </div>
+          <div class="tab-wrap">
+
+            <!-- active tab on page load gets checked attribute -->
+            <input type="radio" id="tab1" name="tabGroup1" class="tab" checked>
+            <label for="tab1">Short</label>
+        
+            <input type="radio" id="tab2" name="tabGroup1" class="tab">
+            <label for="tab2">Medium</label>
+        
+            <input type="radio" id="tab3" name="tabGroup1" class="tab">
+            <label for="tab3">Long</label>
+        
+            <div class="tab__content">
+              <h3>Short Section</h3>
+              <p class="wysiwyg">Praesent nonummy mi in odio. Nullam accumsan lorem in dui. Vestibulum turpis sem, aliquet eget, lobortis pellentesque, rutrum eu, nisl. Nullam accumsan lorem in dui. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
+            </div>
+        
+            <div class="tab__content">
+              <h3>Medium Section</h3>
+              <p class="wysiwyg">Praesent nonummy mi in odio. Nullam accumsan lorem in dui. Vestibulum turpis sem, aliquet eget, lobortis pellentesque, rutrum eu, nisl. Nullam accumsan lorem in dui. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
+        
+              <p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Morbi mattis ullamcorper velit. Pellentesque posuere. Etiam ut purus mattis mauris sodales aliquam. Praesent nec nisl a purus blandit viverra.</p>
+            </div>
+        
+            <div class="tab__content">
+              <h3>Long Section</h3>
+              <p class="wysiwyg">Praesent nonummy mi in odio. Nullam accumsan lorem in dui. Vestibulum turpis sem, aliquet eget, lobortis pellentesque, rutrum eu, nisl. Nullam accumsan lorem in dui. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
+        
+              <p class="wysiwyg">In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Morbi mattis ullamcorper velit. Pellentesque posuere. Etiam ut purus mattis mauris sodales aliquam. Praesent nec nisl a purus blandit viverra.</p>
+        
+              <p class="wysiwyg">Praesent nonummy mi in odio. Nullam accumsan lorem in dui. Vestibulum turpis sem, aliquet eget, lobortis pellentesque, rutrum eu, nisl. Nullam accumsan lorem in dui. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
+        
+              <p class="wysiwyg">In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Morbi mattis ullamcorper velit. Pellentesque posuere. Etiam ut purus mattis mauris sodales aliquam. Praesent nec nisl a purus blandit viverra.</p>
+            </div>
+        
+          </div>
+          <div class="grid related-products">
+              
+            <div class="column-xs-12">
+              <h3>You may also like</h3>
+            </div>
+            <div class="column-xs-12 column-md-4">
+              <img src="https://source.unsplash.com/miziNqvJx5M">
+              <h4>Succulent</h4>
+              <p class="price">$19.99</p>
+            </div>
+            <div class="column-xs-12 column-md-4">
+              <img src="https://source.unsplash.com/2y6s0qKdGZg">
+              <h4>Terranium</h4>
+              <p class="price">$19.99</p>
+            </div>
+            <div class="column-xs-12 column-md-4">
+              <img src="https://source.unsplash.com/6Rs76hNbIWE">
+              <h4>Cactus</h4>
+              <p class="price">$19.99</p>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer>
+        <div class="" style="position: relative;">
+            <section>
+                <div class="base_footer">
+    
+                    <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5317.886438536432!2d16.36331320381025!3d48.20770960254457!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x765904ee1e1b2258!2sDemel!5e0!3m2!1sen!2sjp!4v1586653356936!5m2!1sen!2sjp" width="600" height="450" frameborder="0" style="border:0;width: 100%;height: 30vh;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    
+                    <footer class="footer-distributed">
+    
+                        <div class="footer-left">
+    
+                            <img src="demel_sm_grey@4x.png" style="width: 4vw;" alt="">
+    
+                            <p class="footer-links">
+                                <a href="#" class="link-1">Home</a>
+    
+                                <a href="#">Blog</a>
+    
+                                <a href="#">Pricing</a>
+    
+                                <a href="#">About</a>
+    
+                                <a href="#">Faq</a>
+    
+                                <a href="#">Contact</a>
+                            </p>
+    
+                            <p class="footer-company-name">Company Name © 2015</p>
+                        </div>
+    
+                        <div class="footer-center">
+                            <div>
+                                <i class="fa fa-map-marker"></i>
+                                <p><span>444 S. Cedros Ave</span> Solana Beach, California</p>
+                            </div>
+    
+                            <div>
+                                <i class="fa fa-phone"></i>
+                                <p>+1.555.555.5555</p>
+                            </div>
+    
+                            <div>
+                                <i class="fa fa-envelope"></i>
+                                <p><a href="mailto:support@company.com">support@company.com</a></p>
+                            </div>
+    
+                        </div>
+    
+                        <div class="footer-right">
+    
+                            <div class="footer-icons">
+    
+                                <a href="https://www.facebook.com/demelvienna"><i class="fa fa-facebook"></i></a>
+                                
+                                <a href="https://www.instagram.com/demel_wien/"><i class="fa fa-instagram"></i></a>
+    
+                            </div>
+                        </div>
+    
+                </div>
+    
+                </footer>
+    
+        </div>
+          
+        </div>
+      </footer>
+
+
+    <script>
+        const activeImage = document.querySelector(".product-image .active");
+const productImages = document.querySelectorAll(".image-list img");
+const navItem = document.querySelector('a.toggle-nav');
+
+function changeImage(e) {
+  activeImage.src = e.target.src;
+}
+
+function toggleNavigation(){
+  this.nextElementSibling.classList.toggle('active');
+}
+
+productImages.forEach(image => image.addEventListener("click", changeImage));
+navItem.addEventListener('click', toggleNavigation);
+        </script>
+</body>
+</html>
