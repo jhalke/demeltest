@@ -92,8 +92,7 @@ ul
   display:block;
   float:left;
   color:#B1B1B1;
-  
-    font-size: 1.2rem;
+  inline-size: -webkit-fill-available;
 }
 .menu-restaurant span.clearfix{
   position:relative;
@@ -221,6 +220,42 @@ ul
     display:block;
 }
 
+div.col-sm-6 {
+  -webkit-box-flex: 0;
+  flex: 0 0 50%;
+  max-width: 50%;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+  width: 100%;
+}
+figure.figure {
+  display: block;
+  margin: 0 0 1rem auto;
+  text-align: right;
+}
+img.figure-img.img-fluid {
+  border-style: none;
+  height: auto;
+  line-height: 1;
+  margin-bottom: .5rem;
+  height: 45vh;
+    object-fit: cover;
+  vertical-align: middle;
+}
+
+@media  (max-width: 800px;){
+  img.figure-img.img-fluid {
+    height: unset;
+}
+}
+
+@media  (max-width: 600px;){
+  img.figure-img.img-fluid {
+    display:none !important;
+}
+}
 
     </style>
 
@@ -266,7 +301,7 @@ ul
             </li>
             <li id="menu-item-19" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-19"><a href="#" aria-current="page" data-id="19">About Us</a></li>
             <li id="menu-item-523" class="menu-item menu-item-type-post_type_archive menu-item-object-news menu-item-523"><a href="#" data-id="523">History</a></li>
-            <li id="menu-item-581" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-581"><a href="#" data-id="581">News</a></li>
+            
             <li id="menu-item-20" class="contact-toggle menu-item menu-item-type-custom menu-item-object-custom menu-item-20"><a href="#" data-id="20">Contact</a></li>
 
         </ul>
@@ -339,7 +374,7 @@ ul
                             <span style="left:166px;right:44px;" class="menu-line"></span>
                             <span class="menu-price">$20.99</span>
                           </span>
-                          <span class="menu-subtitle wysiwyg">Neque porro quisquam est qui dolorem</span>
+                          <span class="menu-subtitle ">Neque porro quisquam est qui dolorem</span>
                         </div>
                          <div class="breakfast menu-restaurant">
                               <span class="clearfix">
@@ -347,7 +382,7 @@ ul
                                 <span style="left: 166px; right: 44px;" class="menu-line"></span>
                                 <span class="menu-price">$20.99</span>
                               </span>
-                              <span class="menu-subtitle wysiwyg">Neque porro quisquam est qui dolorem</span>
+                              <span class="menu-subtitle ">Neque porro quisquam est qui dolorem</span>
                             </div>
                   
                             <div class="breakfast menu-restaurant">
@@ -356,7 +391,7 @@ ul
                                 <span style="left: 166px; right: 44px;" class="menu-line"></span>
                                 <span class="menu-price">$20.99</span>
                               </span>
-                              <span class="menu-subtitle wysiwyg">Neque porro quisquam est qui dolorem</span>
+                              <span class="menu-subtitle ">Neque porro quisquam est qui dolorem</span>
                             </div>
                   
                             <div class="breakfast menu-restaurant">
@@ -365,7 +400,7 @@ ul
                                 <span style="left: 166px; right: 44px;" class="menu-line"></span>
                                 <span class="menu-price">$20.99</span>
                               </span>
-                              <span class="menu-subtitle wysiwyg">Neque porro quisquam est qui dolorem</span>
+                              <span class="menu-subtitle ">Neque porro quisquam est qui dolorem</span>
                             </div>
                          <div class="lunch menu-restaurant">
                               <span class="clearfix">
@@ -373,7 +408,7 @@ ul
                                 <span style="left: 166px; right: 44px;" class="menu-line"></span>
                                 <span class="menu-price">$20.99</span>
                               </span>
-                              <span class="menu-subtitle wysiwyg">Neque porro quisquam est qui dolorem</span>
+                              <span class="menu-subtitle ">Neque porro quisquam est qui dolorem</span>
                             </div>
                   
                             <div class="lunch menu-restaurant">
@@ -382,7 +417,7 @@ ul
                                 <span style="left: 166px; right: 44px;" class="menu-line"></span>
                                 <span class="menu-price">$20.99</span>
                               </span>
-                              <span class="menu-subtitle wysiwyg">Neque porro quisquam est qui dolorem</span>
+                              <span class="menu-subtitle ">Neque porro quisquam est qui dolorem</span>
                             </div>
                   
                             <div class="lunch menu-restaurant">
@@ -391,7 +426,7 @@ ul
                                 <span style="left: 166px; right: 44px;" class="menu-line"></span>
                                 <span class="menu-price">$20.99</span>
                               </span>
-                              <span class="menu-subtitle wysiwyg">Neque porro quisquam est qui dolorem</span>
+                              <span class="menu-subtitle ">Neque porro quisquam est qui dolorem</span>
                             </div>
                   
                             <div class="lunch menu-restaurant">
@@ -400,7 +435,7 @@ ul
                                 <span style="left: 166px; right: 44px;" class="menu-line"></span>
                                 <span class="menu-price">$20.99</span>
                               </span>
-                              <span class="menu-subtitle wysiwyg">Neque porro quisquam est qui dolorem</span>
+                              <span class="menu-subtitle ">Neque porro quisquam est qui dolorem</span>
                             </div>
                   
                             <div class="lunch menu-restaurant">
@@ -409,7 +444,7 @@ ul
                                 <span style="left: 166px; right: 44px;" class="menu-line"></span>
                                 <span class="menu-price">$20.99</span>
                               </span>
-                              <span class="menu-subtitle wysiwyg">Neque porro quisquam est qui dolorem</span>
+                              <span class="menu-subtitle ">Neque porro quisquam est qui dolorem</span>
                             </div>
                          <div class="dinner menu-restaurant">
                               <span class="clearfix">
@@ -417,7 +452,7 @@ ul
                                 <span style="left: 166px; right: 44px;" class="menu-line"></span>
                                 <span class="menu-price">$20.99</span>
                               </span>
-                              <span class="menu-subtitle wysiwyg">Neque porro quisquam est qui dolorem</span>
+                              <span class="menu-subtitle ">Neque porro quisquam est qui dolorem</span>
                             </div>
                   
                             <div class="dinner menu-restaurant">
@@ -426,7 +461,7 @@ ul
                                 <span style="left: 166px; right: 44px;" class="menu-line"></span>
                                 <span class="menu-price">$20.99</span>
                               </span>
-                              <span class="menu-subtitle wysiwyg">Neque porro quisquam est qui dolorem</span>
+                              <span class="menu-subtitle ">Neque porro quisquam est qui dolorem</span>
                             </div>
                   
                             <div class="dinner menu-restaurant">
@@ -435,7 +470,7 @@ ul
                                 <span style="left: 166px; right: 44px;" class="menu-line"></span>
                                 <span class="menu-price">$20.99</span>
                               </span>
-                              <span class="menu-subtitle wysiwyg">Neque porro quisquam est qui dolorem</span>
+                              <span class="menu-subtitle ">Neque porro quisquam est qui dolorem</span>
                             </div>
                   
                   
@@ -453,6 +488,24 @@ ul
                             <br>nibh euismod tincidunt ut laoreet dolore magna aliquam. </p>
                         </div>
                     </div>
+                    <div class="row  content-columns">
+                      <div class="col-sm-6">
+                              <figure class="figure">
+                                  <img src="https://www.demel.com/media/2029/pb050097.jpg" class="figure-img img-fluid" alt="Demel_MultiblockItem_Anschnitt.jpg">
+                                  <figcaption class="figure-caption"></figcaption>
+                              </figure>
+                      </div>
+                      <div class="col-sm-6">
+          <h3>K. u. K. HOFZUCKERBÄCKER</h3>
+          <p>CH. DEMEL' S SÖHNE GmbH<br>Kohlmarkt 14<br>A-1010&nbsp;Vienna</p>
+          <p><strong>Tel.:</strong><span>&nbsp;</span>+43 (1) 535 17 17 – 0<br><strong>Fax:</strong><span>&nbsp;</span>+43 (1) 535 17 17 – 26<br><strong>E-Mail:</strong><span>&nbsp;</span><a href="mailto:wien@demel.com">wien@demel.com</a></p>
+          <p><strong>Dear Guests,</strong></p>
+          <p><strong>our café remains temporarily closed until further notice! We thank you very much for your understanding and will keep you updated. Stay safe, we wish you all the best! We hope to be able to welcome you soon again.</strong></p>
+          <p><strong>Love, Your Demel-Team</strong></p>
+          <p>&nbsp;</p>
+          <p><a rel="noopener noreferrer" href="https://www.google.com/maps/place/Demel/@48.208596,16.367219,13z/data=!4m5!3m4!1s0x0:0x765904ee1e1b2258!8m2!3d48.2085962!4d16.3672185?hl=en" target="_blank" class="btn btn-secondary">View on Google Maps</a></p>
+                      </div>
+              </div>
                   </section>
                   
                   
