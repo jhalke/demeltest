@@ -819,9 +819,9 @@ img {
 @media only screen and (max-width:900px){
     .image-list li {
         max-width: 30%;
-        max-height: 20vh;
+        max-height: 20vh !important;
         display: inline-flex;
-        
+        display: none;
        
 }
 @-webkit-keyframes fadeImg {
