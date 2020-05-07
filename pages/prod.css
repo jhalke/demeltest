@@ -817,12 +817,17 @@ img {
 }
 
 @media only screen and (max-width:900px){
-    .image-list li {
+    #prod{
+      top: 5vh !important;
+    }
+  
+  .image-list li {
         max-width: 30%;
         max-height: 20vh !important;
         display: inline-flex;
        
 }
+
 @-webkit-keyframes fadeImg {
   from {
     opacity: 0;
