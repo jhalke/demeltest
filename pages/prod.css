@@ -1,6 +1,6 @@
 html{
     background: #f7f4f4;
-    overflow: scroll;
+    
 }
 
 main#prod{
@@ -9,10 +9,12 @@ main#prod{
     margin-bottom:10vh;
     margin-top:5vh;
     background: #f7f4f4;
+    
 }
 @media screen and (max-width:1024px) {
     main#prod{
         margin-left: 10vw;
+        overflow: scroll;
     }
     }
 }
