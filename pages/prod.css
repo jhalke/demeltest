@@ -1,5 +1,6 @@
 html{
     background: #f7f4f4;
+    overflow: scroll;
 }
 
 main#prod{
@@ -817,6 +818,7 @@ img {
     .image-list li {
         max-width: 30%;
         display: inline-flex;
+        
        
 }
 @-webkit-keyframes fadeImg {
