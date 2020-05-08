@@ -31,6 +31,20 @@
     
 
     <style>
+     #menu-filter{
+        margin-bottom: 5% !important;
+      }
+.hero-title {
+  width: 60%;
+  position: relative;
+  text-align: left;
+  margin-left: 20vw !important;
+}
+
+
+.hero-title video{
+  max-width: 65%;
+}
 
 
 .header-h {
@@ -123,6 +137,9 @@ ul
   cursor:pointer;
   
 }
+
+
+
 @media (min-width: 20px) and (max-width: 450px) 
 {
   .menu-restaurant 
@@ -245,19 +262,80 @@ img.figure-img.img-fluid {
   vertical-align: middle;
 }
 
-@media  (max-width: 800px;){
+@media  (max-width: 860px){
   img.figure-img.img-fluid {
     height: unset;
 }
+
+
+#menu-filters ul li {
+  display: inline-flex !important;
+  padding-bottom: 5%;
+}
+.menu-restaurant .menu-price{
+  position: relative !important;
+
+  
+}
+#menu-wrappe{
+  padding-top: 5%;
+}
 }
 
-@media  (max-width: 600px;){
+@media  (max-width: 600px){
   img.figure-img.img-fluid {
     display:none !important;
 }
 }
 
     </style>
+
+    <Style>
+
+@media only screen and (max-width: 1500px)  {
+  div.hero-title {
+ 
+  margin-bottom: -10vh !important;
+}
+
+.hero-title video{
+  max-width: 75% !important;
+  margin-bottom: -10vh;
+}
+  
+}  
+   @media only screen and (max-width: 1200px)  {
+  div.hero-title {
+  width: 90%;
+  position: relative !important;
+  text-align: center !important;
+  margin-left: 8vw !important;
+  margin-bottom: -10vh !important;
+}
+
+.hero-title video{
+  max-width: 75% !important;
+  margin-bottom: -10vh;
+}
+  
+}
+
+@media only screen and (max-width: 1000px)  {
+  div.hero-title {
+  width: 90%;
+  position: relative !important;
+  text-align: center !important;
+  margin-left: 8vw !important;
+  margin-bottom: -10vh !important;
+}
+
+.hero-title video{
+  max-width: 75% !important;
+  margin-bottom: -20vh;
+}
+  
+}
+    </Style>
 
 </head>
 
@@ -335,10 +413,17 @@ img.figure-img.img-fluid {
     </nav>
 
     <div id="wrapper">
+
+      
         <div class="standard page active" data-body="page-template-default page page-id-98 page-parent">
 
             <div class="hero-title ">
-                <!-- <h1 class="slug" >The originial Imperial pleasure.</h1> -->
+                <h1 class="slug" >The originial Imperial pleasure.</h1>
+                <video style="width: 80%;" width="1000" height="600" playsinline autoplay muted loop >
+                  <source src="https://scontent-lhr8-1.cdninstagram.com/v/t50.2886-16/84030840_827612737711081_4327899414914181108_n.mp4?_nc_ht=scontent-lhr8-1.cdninstagram.com&_nc_cat=101&_nc_ohc=pd3JJGXGmLUAX_KGPNH&oe=5EB6C3E4&oh=edc6ab72e305b3e5dfdd286f46c6eb34" type="video/mp4">
+          
+                  Your browser does not support the video tag.
+                  </video>	
             </div>
            
             <!-- <div class="bloc-titre-carte first bloc-titre-carte-r wow appear" style="visibility: visible;">
@@ -346,7 +431,7 @@ img.figure-img.img-fluid {
 			</div> -->
             <section class="grid story first" style="padding-left: 0.1vw;
             width: 70%;
-            margin-top: 10vh;
+            margin-top: 5vh;
             margin-left: 20vw;">
                 
 
@@ -359,7 +444,7 @@ img.figure-img.img-fluid {
                               <br>nibh euismod tincidunt ut laoreet dolore magna aliquam. </p>
                   
                       </div>
-                      <div class="col-md-12 text-center" id="menu-filters">
+                      <div class="col-md-12 text-center" id="menu-filters" style="margin-bottom: 5%;">
                         <ul>
                           <li><a class="filter active" data-filter=".menu-restaurant">Show All</a></li>
                            <li><a class="filter " data-filter=".breakfast">Breakfast</a></li>

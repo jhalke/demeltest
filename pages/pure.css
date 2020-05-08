@@ -328,11 +328,11 @@ ul ul {
 
 .mkdf-grid-col-3 {
     position: relative;
-    float: left;
-    width: 25%;
+    float: right;
+    width: 24%;
     min-height: 1px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
     -webkit-box-sizing: border-box;
     box-sizing: border-box
 }
@@ -349,9 +349,16 @@ ul ul {
 
 @media only screen and (max-width:1024px) {
     .mkdf-grid-col-3 {
-        width: 100%;
-        float: none
+        width: 70%;
+        float: none;
+        max-height: 60vh;
+        margin-top: -10vh;
+        font-size: 1.2rem;
     }
+}
+
+.mkdf-separator-widget{
+    height: 1px !important;
 }
 
 .mkdf-grid-col-4 {

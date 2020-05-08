@@ -29,6 +29,12 @@
     <script src="list.js"></script>
 
     <style>
+        .commentContainer{
+            margin-left: 15vw !important;
+        }
+        .comment{
+            font-size: 2.5rem;
+        }
         .quote {
             margin-left: 15vw;
             width: 80vw;
@@ -42,6 +48,10 @@
             .section-team {
                 width: 90%;
                 left: 5vw !important;
+            }
+            .w-layout-grid {
+                grid-template-columns: 1fr;
+      grid-template-rows: 1fr !important;
             }
         }
     </style>
@@ -186,6 +196,33 @@
             <section class="grid story first" style="padding-left: 0.1vw;">
 
                 <section class="testimonial shown">
+
+                    <div class="commentContainer">
+                        <quote class="comment" id="comments" style="">„The jewel in Vienna's crown.“</quote>
+                        <div class="magazine" id="magazine" style="">CNN Travel</div>
+                        <script>
+                            var c = 1;
+                            setInterval(function() {
+                                $("#comments").fadeOut(300, function() {
+                                    $("#comments").html('„' + comments[c].comment + '“');
+                                    $("#comments").fadeIn(300, function() {});
+                                });
+
+                                $("#magazine").fadeOut(300, function() {
+
+                                    $("#magazine").html(comments[c].magazine);
+                                    $("#magazine").fadeIn(300, function() {});
+
+                                });
+
+                                if (c == comments.length - 1) {
+                                    c = 0;
+                                } else {
+                                    c++;
+                                }
+                            }, 7000);
+                        </script>
+                    </div>
 
                     <section class="grid story first shown" style="margin-bottom: 15vh;">
                         <div class="container">
